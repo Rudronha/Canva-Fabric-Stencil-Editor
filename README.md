@@ -12,9 +12,7 @@ This is a React application using FabricJS and fabricjs-react for interactive ca
 - Upload and add custom images from local files
 
 ## Demo
-[[Watch the demo](https://drive.google.com/file/d/14QJMo0CwM3u9YMLP3CRxfjFvVkBOn0Fw/view?usp=sharing)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
-[▶️ Watch Demo Video](https://github.com/Rudronha/Canva-Fabric-Stencil-Editor/raw/refs/heads/main/src/assets/demo.mp4)
-
+[[▶️ Watch Demo Video](https://drive.google.com/file/d/14QJMo0CwM3u9YMLP3CRxfjFvVkBOn0Fw/view?usp=sharing)]
 
 ## Getting Started
 
