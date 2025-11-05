@@ -11,6 +11,10 @@ This is a React application using FabricJS and fabricjs-react for interactive ca
 - Clear canvas and remove selected objects
 - Upload and add custom images from local files
 
+## Demo
+
+[▶️ Watch Demo Video](assets/demo.mp4)
+
 ## Getting Started
 
 ### Installation
