@@ -14,7 +14,7 @@ This is a React application using FabricJS and fabricjs-react for interactive ca
 ## Demo
 [[▶️ Watch Demo Video](https://drive.google.com/file/d/14QJMo0CwM3u9YMLP3CRxfjFvVkBOn0Fw/view?usp=sharing)]
 
-## Try Demo
+## Try Demo(Do resize the window once)
 [Fabric-Editor ](https://Rudronha.github.io/Canva-Fabric-Stencil-Editor/)
 
 
