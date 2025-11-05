@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Canva-Fabric-Stencil-Editor/static/css/main.df67c252.css",
+    "main.js": "/Canva-Fabric-Stencil-Editor/static/js/main.df309444.js",
+    "static/media/frame1.svg": "/Canva-Fabric-Stencil-Editor/static/media/frame1.e122813a1c2f645fbc01ef3454df9bdb.svg",
+    "static/media/frame4.svg": "/Canva-Fabric-Stencil-Editor/static/media/frame4.60180920075f79c921ddf9e4636faf9e.svg",
+    "static/media/frame2.svg": "/Canva-Fabric-Stencil-Editor/static/media/frame2.d87998e78589a97f171ff3c5191e52cd.svg",
+    "static/media/frame3.svg": "/Canva-Fabric-Stencil-Editor/static/media/frame3.b9d0e55723594c1f2364d21dc16a00d2.svg",
+    "index.html": "/Canva-Fabric-Stencil-Editor/index.html",
+    "main.df67c252.css.map": "/Canva-Fabric-Stencil-Editor/static/css/main.df67c252.css.map",
+    "main.df309444.js.map": "/Canva-Fabric-Stencil-Editor/static/js/main.df309444.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df67c252.css",
+    "static/js/main.df309444.js"
+  ]
+}
