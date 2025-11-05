@@ -13,8 +13,8 @@ This is a React application using FabricJS and fabricjs-react for interactive ca
 
 ## Demo
 
-[▶️ Watch Demo Video](src/assets/demo.mp4)
-<video src="src/assets/demo.mp4" controls width="500" />
+[▶️ Watch Demo Video](https://github.com/Rudronha/Canva-Fabric-Stencil-Editor/raw/refs/heads/main/src/assets/demo.mp4)
+
 
 ## Getting Started
 
