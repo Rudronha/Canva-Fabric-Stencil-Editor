@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# FabricJS React Image Editor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React application using FabricJS and fabricjs-react for interactive canvas editing. It allows free drawing, shape adding, text insertion, image background setting, SVG loading, zooming, cropping mode, and undo/redo functionality. Images can be uploaded and added onto the canvas dynamically.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- FabricJS canvas integration via fabricjs-react
+- Add shapes: circles, rectangles, lines
+- Add inset text to canvas
+- Toggle free drawing mode with color and size controls
+- Set an image as background or load SVG elements
+- Zoom canvas with mouse wheel and pan while holding Ctrl
+- Crop mode toggle that disables/enables canvas interactions
+- Undo/Redo of canvas objects
+- Clear canvas and remove selected objects
+- Upload and add custom images from local files
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Make sure you have Node.js installed. Then run:
 
-### `npm test`
+```
+npm install
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Usage
 
-### `npm run build`
+- Use the buttons to add shapes, text and toggle drawing mode.
+- Use the color picker to change stroke color in drawing mode.
+- Upload images using the file input to add them onto the canvas.
+- Use mouse wheel to zoom, hold Ctrl + drag to pan.
+- Toggle crop mode disables interactions for cropping.
+- Undo/Redo buttons manage object history.
+- Export canvas as SVG or load predefined SVG elements.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Image Upload
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Use the file input to select an image from your device. The image will be loaded and added as a Fabric.Image object on the canvas, where you can move, resize or delete it.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Dependencies
 
-### `npm run eject`
+- React
+- fabric 5.5.0
+- fabricjs-react
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Folder Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `src/components/` - React components (e.g., Toobar, CanvasContainer).
+- `src/hooks/useFabricCanvas` - Main React Hook with all FabricJS logic and all core canvas manipulations.
+- `public/` - Static assets such as favicon, index.html, and images available to the app.
+- `assets/` - Project-related frames other reference data.
+- `README.md` - Project description, setup guide, and documentation.
+- `package.json` - Dependency list and build scripts.
+- `.gitignore` - Files to exclude from version control.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributing
 
-## Learn More
+Feel free to fork the repository and create pull requests for bug fixes or new features.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is open source under the MIT License.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
