@@ -5,11 +5,7 @@ This is a React application using FabricJS and fabricjs-react for interactive ca
 ## Features
 
 - FabricJS canvas integration via fabricjs-react
-- Add shapes: circles, rectangles, lines
-- Add inset text to canvas
-- Toggle free drawing mode with color and size controls
-- Set an image as background or load SVG elements
-- Zoom canvas with mouse wheel and pan while holding Ctrl
+- Add frames: from perdefine stensile
 - Crop mode toggle that disables/enables canvas interactions
 - Undo/Redo of canvas objects
 - Clear canvas and remove selected objects
