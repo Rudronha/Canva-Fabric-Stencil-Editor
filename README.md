@@ -13,7 +13,7 @@ This is a React application using FabricJS and fabricjs-react for interactive ca
 
 ## Demo
 
-[▶️ Watch Demo Video](assets/demo.mp4)
+[▶️ Watch Demo Video](src/assets/demo.mp4)
 
 ## Getting Started
 
